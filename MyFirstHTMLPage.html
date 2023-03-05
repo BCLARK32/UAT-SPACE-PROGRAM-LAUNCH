@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Page</title>
+    <script type="text/javascript">
+       var countDown = 10;
+       document.getElementById("countdownlabel").innerHTML = countDown;
+       function BlastOff ()
+        {
+            if(countDown != -1)
+            {
+                document.getElementById("countdownlabel").innerHTML = countDown;
+            }
+            else
+            {
+                const blasdtoffView = document.getElementById("BlastoffLabel")
+                blastoffView.style.display = "block";
+            }
+
+            countDown--;
+        }      
+    </script>
+
+    <script type="text/javascript">
+        function closeTheProgram()
+        {
+            this.close();
+        }
+    </script>
+
+<script type="text/javascript">
+    function MyLiveClassFunction()
+                {
+                    alert("Hello Viewers!");
+                }
+    
+                MyLiveClassFunction();
+    </script>
+</head>
+<body>
+<img width="300px" height="300px" src="Goku SSB Wallpapers - Wallpaper Cave
+https://www.bing.com/images/search?q=&view=detailv2&id=528E13FF27509A9298B9D12BCCC6AC19E2B44D17&ccid=sYHSyf1y&iss=fav&FORM=SVIM01&idpview=singleimage&mediaurl=https%253a%252f%252fwallpapercave.com%252fwp%252fwp3885806.png&expw=1024&exph=1024&thid=OIP.sYHSyf1y_S6LW2kujId8LgHaHa
+wallpapercave.com">
+<p id="countdownlabel"></p>
+<p id="BlastoffLabel">BLAST OFF </p>
+<button id="b"onclick="BlastOff ()">Start</button>
+<button id="c"onclick="closeTheProgram()">End</button>
+
+</body>
+</html>
